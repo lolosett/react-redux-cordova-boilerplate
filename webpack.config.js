@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+//simplifies creation of HTML files to serve webpack bundles
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
@@ -28,7 +29,7 @@ const config = {
 			test: /\.jsx?$/,
 			loader: 'babel-loader?cacheDirectory',
 			exclude: '/node_modules/',
-			include: path.join(__dirname, 'app')
+			include: path.join(__dirname, 'src')
 		},{
 			test: /\.less$/,
 			use: [

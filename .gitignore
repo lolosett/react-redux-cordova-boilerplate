@@ -16,3 +16,16 @@ Thumbs.db
 
 
 /dist
+
+
+/platforms
+/plugins
+resources/signing
+/_DEV
+/res
+/.idea
+/www/app.js
+/www/vendor.bundle.js
+/www/app.js.map
+/www/vendor.bundle.js.map
+.gradle
